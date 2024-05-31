@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{64eb5076-f7b3-4728-a491-6a9654db933d}">
+		<property name="name">
+			<value>MasterVolumeFade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6987e8c1-a7bc-476a-95b2-56b210ddd278}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d6484a23-ef17-43c7-8e96-ed62ac82c33f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d6484a23-ef17-43c7-8e96-ed62ac82c33f}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.61000001430511475</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

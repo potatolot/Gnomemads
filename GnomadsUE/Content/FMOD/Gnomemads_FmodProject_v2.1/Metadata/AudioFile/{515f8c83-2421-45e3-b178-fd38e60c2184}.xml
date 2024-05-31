@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{515f8c83-2421-45e3-b178-fd38e60c2184}">
+		<property name="assetPath">
+			<value>KabouterGame_Menu_Project_v1.1.0.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>157.27199999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8eeb675d-1dd1-4cf7-9ec8-178211d00966}</destination>
+		</relationship>
+	</object>
+</objects>

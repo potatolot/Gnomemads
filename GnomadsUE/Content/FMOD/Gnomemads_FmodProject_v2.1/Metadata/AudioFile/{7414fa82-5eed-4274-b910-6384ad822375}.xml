@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7414fa82-5eed-4274-b910-6384ad822375}">
+		<property name="assetPath">
+			<value>Music_Theme1_Peaceful_v1.1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>33.103437499999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8eeb675d-1dd1-4cf7-9ec8-178211d00966}</destination>
+		</relationship>
+	</object>
+</objects>

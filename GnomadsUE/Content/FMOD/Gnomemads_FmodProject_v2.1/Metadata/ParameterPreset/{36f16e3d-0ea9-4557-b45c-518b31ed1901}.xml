@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{36f16e3d-0ea9-4557-b45c-518b31ed1901}">
+		<property name="name">
+			<value>PlayerNoise</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6987e8c1-a7bc-476a-95b2-56b210ddd278}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bbaa8bfe-662a-42f4-8720-d0b82e9d7edb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bbaa8bfe-662a-42f4-8720-d0b82e9d7edb}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
