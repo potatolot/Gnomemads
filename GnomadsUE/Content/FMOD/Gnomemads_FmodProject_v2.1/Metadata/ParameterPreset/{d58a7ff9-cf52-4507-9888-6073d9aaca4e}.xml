@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d58a7ff9-cf52-4507-9888-6073d9aaca4e}">
+		<property name="name">
+			<value>RiserDanger</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6987e8c1-a7bc-476a-95b2-56b210ddd278}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{90f17a28-b62c-4fb3-a348-24fe7087d014}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{90f17a28-b62c-4fb3-a348-24fe7087d014}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.32999998331069946</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

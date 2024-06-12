@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3c9c18ae-ed53-4e58-8949-20091e596963}">
+		<property name="assetPath">
+			<value>004_tocararbusto-002-44310.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.88816326530612244</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8eeb675d-1dd1-4cf7-9ec8-178211d00966}</destination>
+		</relationship>
+	</object>
+</objects>
