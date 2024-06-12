@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# FMOD
+Content/FMOD/Gnomemads_FmodProject_v2.1/*
