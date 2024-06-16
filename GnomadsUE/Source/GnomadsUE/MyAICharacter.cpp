@@ -21,7 +21,7 @@ void AMyAICharacter::BeginPlay()
 void AMyAICharacter::GetActorEyesViewPoint(FVector& OutLocation, FRotator& OutRotation) const
 {
 	OutLocation = GetMesh()->GetSocketLocation("HeadSocket");
-	OutRotation = GetMesh()->GetSocketRotation("HeadSocket");
+	OutRotation = GetMesh()->GetSocketRotation("HeadSocket") + FRotator(0, 0, 90);
 }
 
 // Called every frame
