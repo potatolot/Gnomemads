@@ -8,7 +8,7 @@
 			<value>Player_Footsteps_Walk</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{620641e8-b714-4d66-838f-199c960fc242}</destination>
@@ -156,7 +156,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6c0162b7-2737-41c6-9577-af2211979503}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-11</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{11a03334-a8df-495c-88b8-390f977a62cb}</destination>
@@ -250,7 +250,7 @@
 			<value>8</value>
 		</property>
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-4</value>
 		</property>
 		<property name="pitch">
 			<value>7</value>
@@ -520,11 +520,11 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{11a03334-a8df-495c-88b8-390f977a62cb}">
 		<relationship name="effects">
+			<destination>{642a9197-4617-4a1e-8155-238aae440814}</destination>
+			<destination>{862c1919-2d0a-4369-a3ce-7175492720e7}</destination>
 			<destination>{55f739e5-f39a-44cd-acb7-da97e61c8f77}</destination>
 			<destination>{2461068a-8663-461b-932d-2dc8856a4f07}</destination>
 			<destination>{4bcf328f-464a-4b2b-a9d4-6beedb61c9a7}</destination>
-			<destination>{862c1919-2d0a-4369-a3ce-7175492720e7}</destination>
-			<destination>{aacfbe7c-1b72-4665-9ede-a8bc4ff84a99}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0978889e-c92f-4522-967a-d0b34c2715a1}" />
@@ -680,6 +680,7 @@
 	<object class="MixerBusEffectChain" id="{cdbd65a7-fe06-4639-a584-7e5c0c86b75b}">
 		<relationship name="effects">
 			<destination>{a4fd458b-d4cf-47af-8b07-74c1ea6347f0}</destination>
+			<destination>{d6e9ae12-2b26-4431-9d24-31b48070570f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{83652cd2-2d04-41dc-8eeb-f3e0468553cc}" />
@@ -982,9 +983,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{45873369-04ca-4565-a592-29ded5152edb}" />
+	<object class="ThreeEQEffect" id="{642a9197-4617-4a1e-8155-238aae440814}">
+		<property name="lowGain">
+			<value>-1</value>
+		</property>
+		<property name="highGain">
+			<value>-2</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{862c1919-2d0a-4369-a3ce-7175492720e7}" />
 	<object class="MixerSend" id="{55f739e5-f39a-44cd-acb7-da97e61c8f77}">
 		<property name="level">
-			<value>-10</value>
+			<value>-10.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>
@@ -1014,18 +1024,6 @@
 		<relationship name="mixerReturn">
 			<destination>{fe0c0526-a483-4253-b48c-e3e6772332f3}</destination>
 		</relationship>
-	</object>
-	<object class="MixerBusFader" id="{862c1919-2d0a-4369-a3ce-7175492720e7}" />
-	<object class="SpatialiserEffect" id="{aacfbe7c-1b72-4665-9ede-a8bc4ff84a99}">
-		<property name="distanceRolloffType">
-			<value>1</value>
-		</property>
-		<property name="panBlend">
-			<value>0.324999988</value>
-		</property>
-		<property name="userStereoSeparation">
-			<value>112</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{6b1523b3-8963-4e39-b655-acb6b4c0dcc8}">
 		<property name="position">
@@ -1125,6 +1123,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a4fd458b-d4cf-47af-8b07-74c1ea6347f0}" />
+	<object class="ThreeEQEffect" id="{d6e9ae12-2b26-4431-9d24-31b48070570f}">
+		<property name="lowGain">
+			<value>-15.5</value>
+		</property>
+		<property name="midGain">
+			<value>-2.5</value>
+		</property>
+		<property name="highGain">
+			<value>-8.5</value>
+		</property>
+		<property name="highCrossover">
+			<value>6000</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{467ca65c-c4a8-4b43-9544-b0592205f3d3}">
 		<property name="position">
 			<value>0</value>

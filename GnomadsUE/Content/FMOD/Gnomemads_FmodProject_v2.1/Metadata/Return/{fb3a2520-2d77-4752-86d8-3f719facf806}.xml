@@ -31,6 +31,7 @@
 	<object class="MixerBusEffectChain" id="{23e0b1d2-a6db-4be3-b92d-85d0a2f45db9}">
 		<relationship name="effects">
 			<destination>{28dc8a78-295b-4946-89cd-0dfe9290cc4b}</destination>
+			<destination>{521c64ff-6bea-4531-acb8-43e2bb3f0c0f}</destination>
 			<destination>{99c03cce-9b82-4efd-bfa5-212c9cb3a820}</destination>
 		</relationship>
 	</object>
@@ -71,6 +72,14 @@
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{521c64ff-6bea-4531-acb8-43e2bb3f0c0f}">
+		<property name="lowGain">
+			<value>-13.5</value>
+		</property>
+		<property name="highGain">
+			<value>0.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{99c03cce-9b82-4efd-bfa5-212c9cb3a820}" />
