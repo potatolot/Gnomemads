@@ -1012,7 +1012,6 @@
 		<property name="length">
 			<value>33.123265306122448</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{159a802e-bd2d-4b08-9514-b3f198bc76e0}</destination>
 		</relationship>
@@ -2268,6 +2267,7 @@
 		<relationship name="automationPoints">
 			<destination>{7108f006-8932-47d1-b7f4-47751d08451d}</destination>
 			<destination>{28884a18-9a5b-462d-8619-5977a8464199}</destination>
+			<destination>{cccb7e78-88d7-4762-9c7c-2044fd61a44e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{052e6cd0-e41f-4a54-ac6b-eb331aa53974}" />
@@ -2326,7 +2326,18 @@
 			<value>-80</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.304255575</value>
+			<value>-0.498774409</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{cccb7e78-88d7-4762-9c7c-2044fd61a44e}">
+		<property name="position">
+			<value>0.28000000000000003</value>
+		</property>
+		<property name="value">
+			<value>-10</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.110922135</value>
 		</property>
 	</object>
 </objects>
