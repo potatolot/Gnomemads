@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{64eb5076-f7b3-4728-a491-6a9654db933d}">
 		<property name="name">
-			<value>MasterVolumeFade</value>
+			<value>MenuVolumeFade</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6987e8c1-a7bc-476a-95b2-56b210ddd278}</destination>
@@ -16,7 +16,7 @@
 			<value>true</value>
 		</property>
 		<property name="initialValue">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="seekSpeed">
 			<value>0.61000001430511475</value>
