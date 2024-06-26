@@ -156,7 +156,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6c0162b7-2737-41c6-9577-af2211979503}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{11a03334-a8df-495c-88b8-390f977a62cb}</destination>
@@ -655,6 +655,7 @@
 		<relationship name="effects">
 			<destination>{d6e9ae12-2b26-4431-9d24-31b48070570f}</destination>
 			<destination>{a4fd458b-d4cf-47af-8b07-74c1ea6347f0}</destination>
+			<destination>{269006d7-0858-48c2-9632-5d1f25d1d28f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{83652cd2-2d04-41dc-8eeb-f3e0468553cc}" />
@@ -925,7 +926,7 @@
 	</object>
 	<object class="MixerSend" id="{4bcf328f-464a-4b2b-a9d4-6beedb61c9a7}">
 		<property name="level">
-			<value>-15</value>
+			<value>-16</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>
@@ -1015,7 +1016,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c7e1caca-e3a8-4d53-a9e0-6cc0c2137a3a}">
 		<property name="position">
-			<value>0.1484375</value>
+			<value>0.21875</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1045,13 +1046,13 @@
 	</object>
 	<object class="ThreeEQEffect" id="{d6e9ae12-2b26-4431-9d24-31b48070570f}">
 		<property name="lowGain">
-			<value>-14</value>
+			<value>-2.5</value>
 		</property>
 		<property name="midGain">
-			<value>1.5</value>
+			<value>-0.5</value>
 		</property>
 		<property name="highGain">
-			<value>-6</value>
+			<value>-10</value>
 		</property>
 		<property name="highCrossover">
 			<value>3400</value>
@@ -1061,6 +1062,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a4fd458b-d4cf-47af-8b07-74c1ea6347f0}" />
+	<object class="PannerEffect" id="{269006d7-0858-48c2-9632-5d1f25d1d28f}">
+		<property name="stereoPan">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{467ca65c-c4a8-4b43-9544-b0592205f3d3}">
 		<property name="position">
 			<value>0</value>
