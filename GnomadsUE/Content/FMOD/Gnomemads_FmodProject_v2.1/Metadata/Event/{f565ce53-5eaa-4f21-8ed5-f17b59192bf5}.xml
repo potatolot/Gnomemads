@@ -285,7 +285,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{2c93e099-9a97-4682-9422-f4e911b8de0b}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{879a4622-7cd5-477d-aa77-94798b03874b}</destination>
@@ -1232,7 +1232,7 @@
 			<value>0</value>
 		</property>
 		<property name="name">
-			<value>Marker A</value>
+			<value>Forest</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{bd7e6ac3-5aa0-4c5e-be2b-3519474aefcc}</destination>
@@ -1246,7 +1246,7 @@
 			<value>37.241379310344833</value>
 		</property>
 		<property name="name">
-			<value>Marker B</value>
+			<value>Cat chase</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{bd7e6ac3-5aa0-4c5e-be2b-3519474aefcc}</destination>
@@ -1363,7 +1363,7 @@
 			<value>74.482758620689665</value>
 		</property>
 		<property name="name">
-			<value>Marker C</value>
+			<value>Menu</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{bd7e6ac3-5aa0-4c5e-be2b-3519474aefcc}</destination>
