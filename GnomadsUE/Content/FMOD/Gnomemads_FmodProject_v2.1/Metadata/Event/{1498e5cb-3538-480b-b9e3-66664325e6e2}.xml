@@ -289,9 +289,6 @@
 		<property name="extentMode">
 			<value>1</value>
 		</property>
-		<property name="panBlend">
-			<value>0.685000002</value>
-		</property>
 	</object>
 	<object class="MixerBusFader" id="{46fa8c5b-4a2c-4cf8-a25c-1da296a07f0a}" />
 	<object class="MixerSend" id="{bb552bd3-1158-47c9-8290-efff06c1511a}">
